@@ -1409,7 +1409,7 @@ body {
   font-size: 16px;
   line-height: 1.4;
   color: #333333;
-  background-color: #eeeeee; }
+  background-color: #BAAEA4; }
 
 /* line 36, /Users/Charlou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
 input,
@@ -1456,7 +1456,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.4;
-  background-color: #eeeeee;
+  background-color: #BAAEA4;
   border: 1px solid #ddd;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2868,7 +2868,7 @@ th {
     border-top: 2px solid #ddd; }
   /* line 62, /Users/Charlou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_tables.scss */
   .table .table {
-    background-color: #eeeeee; }
+    background-color: #BAAEA4; }
 
 /* line 75, /Users/Charlou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_tables.scss */
 .table-condensed > thead > tr > th,
@@ -4436,7 +4436,7 @@ tbody.collapse.in {
     /* line 96, /Users/Charlou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #555555;
-      background-color: #eeeeee;
+      background-color: #BAAEA4;
       border: 1px solid #ddd;
       border-bottom-color: transparent;
       cursor: default; }
@@ -4511,7 +4511,7 @@ tbody.collapse.in {
     .nav-tabs.nav-justified > .active > a:hover,
     .nav-tabs-justified > .active > a:focus,
     .nav-tabs.nav-justified > .active > a:focus {
-      border-bottom-color: #eeeeee; } }
+      border-bottom-color: #BAAEA4; } }
 
 /* line 224, /Users/Charlou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
 .tab-content > .tab-pane {
@@ -5346,7 +5346,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 22px;
   line-height: 1.4;
-  background-color: #eeeeee;
+  background-color: #BAAEA4;
   border: 1px solid #ddd;
   border-radius: 2px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -9251,18 +9251,19 @@ button.close {
     padding-bottom: 1em; }
   /* line 6, /Users/Charlou/Desktop/middleman_akwa/source/stylesheets/layout/_footer.css.scss */
   #footer p {
-    font-size: 16px;
+    font-size: 10px;
     color: white; }
   /* line 10, /Users/Charlou/Desktop/middleman_akwa/source/stylesheets/layout/_footer.css.scss */
   #footer a {
+    font-size: 10px;
     color: white; }
-  /* line 13, /Users/Charlou/Desktop/middleman_akwa/source/stylesheets/layout/_footer.css.scss */
+  /* line 14, /Users/Charlou/Desktop/middleman_akwa/source/stylesheets/layout/_footer.css.scss */
   #footer a:hover {
     color: #CE8C0C;
     text-decoration: none;
     transition: color 0.3s ease; }
 
-/* line 20, /Users/Charlou/Desktop/middleman_akwa/source/stylesheets/layout/_footer.css.scss */
+/* line 21, /Users/Charlou/Desktop/middleman_akwa/source/stylesheets/layout/_footer.css.scss */
 .marge {
   margin-left: 2em; }
 
@@ -9426,9 +9427,20 @@ button.close {
   background: #6452BD;
   color: white; }
 
+/* line 1, /Users/Charlou/Desktop/middleman_akwa/source/stylesheets/components/_button.css.scss */
+.btn-primary {
+  background-color: #CE8C0C;
+  color: white;
+  border: none; }
+  /* line 5, /Users/Charlou/Desktop/middleman_akwa/source/stylesheets/components/_button.css.scss */
+  .btn-primary:hover {
+    background-color: #9e6b09;
+    text-decoration: none;
+    transition: color 0.5s ease; }
+
 /* line 1, /Users/Charlou/Desktop/middleman_akwa/source/stylesheets/pages/_home.css.scss */
 .wrapper {
-  background-image: url("../images/bg1.jpg");
+  background-image: url("../images/bg2.JPG");
   background-size: cover;
   height: 900px;
   text-align: left;
