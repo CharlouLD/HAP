@@ -9460,6 +9460,13 @@ button.close {
     color: #CE8C0C;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
 
+/* line 2, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
+#chambres h1 {
+  color: #336699; }
+/* line 5, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
+#chambres p {
+  color: #595358; }
+
 /* line 1, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideDown {
   animation-name: slideDown;
