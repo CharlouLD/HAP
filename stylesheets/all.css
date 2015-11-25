@@ -9453,10 +9453,11 @@ button.close {
   color: white; }
   /* line 8, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
   .wrapper h1 {
+    font-family: "Open Sans", "Helvetica", "sans-serif";
     font-size: 70px;
-    font-weight: 4  00;
+    font-weight: 300;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); }
-  /* line 13, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
+  /* line 14, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
   .wrapper h2 {
     font-size: 20px;
     font-weight: 400;
@@ -9464,24 +9465,24 @@ button.close {
     margin-bottom: 30px;
     color: #CE8C0C;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
-  /* line 21, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
+  /* line 22, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
   .wrapper p {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); }
 
-/* line 26, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
+/* line 27, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
 #booking {
   border-radius: 4px;
   margin: auto;
   padding: 3em;
   background-color: #BAAEA4;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
-  /* line 32, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
+  /* line 33, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
   #booking h4 {
     padding-top: 0em;
     color: #595358;
     padding-bottom: 1em; }
 
-/* line 39, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
+/* line 40, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
 #baseline {
   border-radius: 4px;
   margin: auto;
