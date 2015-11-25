@@ -9440,7 +9440,7 @@ button.close {
 
 /* line 1, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
 .wrapper {
-  background-image: url("../images/bg2.JPG");
+  background-image: url("../images/bg2.png");
   background-size: cover;
   height: 900px;
   text-align: left;
@@ -9459,6 +9459,9 @@ button.close {
     margin-bottom: 30px;
     color: #CE8C0C;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  /* line 21, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
+  .wrapper p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); }
 
 /* line 2, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
 #chambres h1 {
