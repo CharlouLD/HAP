@@ -9301,8 +9301,8 @@ button.close {
     outline: none;
     color: white;
     line-height: 70px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: transparent;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -9318,15 +9318,15 @@ button.close {
   .navbar-wagon .navbar-brand:hover {
     outline: none;
     color: white;
-    padding-top: 5px;
-    padding-bottom: 5px; }
+    padding-top: 10px;
+    padding-bottom: 10px; }
   /* line 79, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a.btn {
     line-height: 40px;
     padding: 0 10px;
     color: white;
     border-radius: 2px;
-    margin-top: 20px;
+    margin-top: 25px;
     font-weight: bold;
     background-color: #CE8C0C;
     font-size: 12px; }
@@ -9398,31 +9398,36 @@ button.close {
   padding-bottom: 4em; }
 
 /* line 17, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_utilities.css.scss */
+.padded-light {
+  padding-top: 0.5em;
+  padding-bottom: 0.3em; }
+
+/* line 22, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_utilities.css.scss */
 .bg-red {
   background: #A01407;
   color: white; }
 
-/* line 21, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_utilities.css.scss */
+/* line 26, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_utilities.css.scss */
 .bg-blue {
   background: #469AE0;
   color: white; }
 
-/* line 25, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_utilities.css.scss */
+/* line 30, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_utilities.css.scss */
 .bg-yellow {
   background: #CE8C0C;
   color: white; }
 
-/* line 29, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_utilities.css.scss */
+/* line 34, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_utilities.css.scss */
 .bg-orange {
   background: #E67E22;
   color: white; }
 
-/* line 33, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_utilities.css.scss */
+/* line 38, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_utilities.css.scss */
 .bg-green {
   background: #32B796;
   color: white; }
 
-/* line 37, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_utilities.css.scss */
+/* line 42, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/layout/_utilities.css.scss */
 .bg-purple {
   background: #6452BD;
   color: white; }
@@ -9469,6 +9474,10 @@ button.close {
 /* line 5, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
 #chambres p {
   color: #595358; }
+/* line 8, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
+#chambres ul, #chambres li {
+  color: #595358;
+  list-style: none; }
 
 /* line 1, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideDown {
