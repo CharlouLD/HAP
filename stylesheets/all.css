@@ -9475,12 +9475,17 @@ button.close {
   padding: 3em;
   background-color: #BAAEA4;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  /* line 32, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
+  #booking h4 {
+    padding-top: 0em;
+    color: #595358;
+    padding-bottom: 1em; }
 
-/* line 34, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
+/* line 39, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
 #baseline {
   border-radius: 4px;
   margin: auto;
-  padding: 2em;
+  padding: 3em;
   background-color: #A01407;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
 
