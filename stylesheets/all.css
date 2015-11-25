@@ -9447,7 +9447,7 @@ button.close {
 .wrapper {
   background-image: url("../images/bg2.png");
   background-size: cover;
-  height: 900px;
+  height: 1200px;
   text-align: left;
   padding: 200px 100px;
   color: white; }
@@ -9467,6 +9467,22 @@ button.close {
   /* line 21, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
   .wrapper p {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); }
+
+/* line 26, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
+#booking {
+  border-radius: 4px;
+  margin: auto;
+  padding: 3em;
+  background-color: #BAAEA4;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+
+/* line 34, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_home.css.scss */
+#baseline {
+  border-radius: 4px;
+  margin: auto;
+  padding: 2em;
+  background-color: #A01407;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
 
 /* line 2, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
 #chambres h1 {
