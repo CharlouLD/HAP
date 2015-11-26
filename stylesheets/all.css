@@ -9487,8 +9487,8 @@ button.close {
   border-radius: 4px;
   margin: auto;
   padding: 3em;
-  background-color: #A01407;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  background-color: rgba(160, 21, 7, 0.6);
+  box-shadow: 2px 2px 5px rgba(160, 21, 7, 0.1); }
 
 /* line 2, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
 #chambres h1 {
