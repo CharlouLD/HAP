@@ -23,25 +23,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-//   <script type="text/javascript">
-// $(document).ready(function(){
-//     /* Get iframe src attribute value i.e. YouTube video url
-//     and store it in a variable */
-//     var url = $("#akwaVideo").attr('src');
-
-//     /* Assign empty url value to the iframe src attribute when
-//     modal hide, which stop the video playing */
-//     $("#video").on('hide.bs.modal', function(){
-//         $("#akwaVideo").attr('src', '');
-//     });
-
-//     /* Assign the initially stored url back to the iframe src
-//     attribute when modal is displayed again */
-//     $("#video").on('show.bs.modal', function(){
-//         $("#akwaVideo").attr('src', url);
-//     });
-// });
-// </script>
 
 <body class="index">
 <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
@@ -100,7 +81,23 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-    <div class="wrapper padded">
+    <script>
+  autoPlayYouTubeModal();
+  //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
+  function autoPlayYouTubeModal() {
+      var trigger = $("body").find('[data-toggle="modal"]');
+      trigger.click(function () {
+          var theModal = $(this).data("target"),
+              videoSRC = $(this).attr("data-theVideo"),
+              videoSRCauto = videoSRC + "?autoplay=1";
+          $(theModal + ' iframe').attr('src', videoSRCauto);
+          $(theModal + ' button.close').click(function () {
+              $(theModal + ' iframe').attr('src', videoSRC);
+          });
+      });
+  }
+  </script>
+<div class="wrapper padded">
   <div class="row">
     <div class="col-xs-12 col-sm-8">
       <h1>Hotel Akwa Palace</h1>
@@ -140,23 +137,6 @@
     </div>
   </div>
 </div>
-
-<script>
-  autoPlayYouTubeModal();
-  //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
-  function autoPlayYouTubeModal() {
-      var trigger = $("body").find('[data-toggle="modal"]');
-      trigger.click(function () {
-          var theModal = $(this).data("target"),
-              videoSRC = $(this).attr("data-theVideo"),
-              videoSRCauto = videoSRC + "?autoplay=1";
-          $(theModal + ' iframe').attr('src', videoSRCauto);
-          $(theModal + ' button.close').click(function () {
-              $(theModal + ' iframe').attr('src', videoSRC);
-          });
-      });
-  }
-  </script>
 
 <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
     <div class="modal-dialog">
