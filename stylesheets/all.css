@@ -9492,14 +9492,27 @@ button.close {
 
 /* line 2, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
 #chambres h1 {
-  color: #336699; }
-/* line 5, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-size: 45px;
+  font-weight: 300;
+  color: white; }
+/* line 8, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
 #chambres p {
   color: #595358; }
-/* line 8, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
+/* line 11, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
 #chambres ul, #chambres li {
   color: #595358;
   list-style: none; }
+
+/* line 18, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
+#menu h1 {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-size: 45px;
+  font-weight: 300;
+  color: white; }
+/* line 24, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/pages/_rooms.css.scss */
+#menu p {
+  color: #595358; }
 
 /* line 1, /Users/Charlou/Desktop/Perso/middleman_akwa/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideDown {
