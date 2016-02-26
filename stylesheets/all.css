@@ -9473,7 +9473,7 @@ button.close {
 #booking {
   border-radius: 4px;
   margin: auto;
-  padding: 3em;
+  padding: 2em;
   background-color: #BAAEA4;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
   /* line 33, /Users/Charlou/Desktop/Perso/Akwa_WEB/Akwa_FR/source/stylesheets/pages/_home.css.scss */
@@ -9483,6 +9483,23 @@ button.close {
     padding-bottom: 1em; }
 
 /* line 40, /Users/Charlou/Desktop/Perso/Akwa_WEB/Akwa_FR/source/stylesheets/pages/_home.css.scss */
+#newsletter {
+  border-radius: 4px;
+  margin: auto;
+  padding: 0.5em;
+  background-color: #BAAEA4;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  /* line 46, /Users/Charlou/Desktop/Perso/Akwa_WEB/Akwa_FR/source/stylesheets/pages/_home.css.scss */
+  #newsletter h4 {
+    padding-top: 0em;
+    color: #595358;
+    padding-bottom: 1em; }
+
+/* line 53, /Users/Charlou/Desktop/Perso/Akwa_WEB/Akwa_FR/source/stylesheets/pages/_home.css.scss */
+input, select, textarea {
+  color: black; }
+
+/* line 57, /Users/Charlou/Desktop/Perso/Akwa_WEB/Akwa_FR/source/stylesheets/pages/_home.css.scss */
 #baseline {
   border-radius: 4px;
   margin: auto;
